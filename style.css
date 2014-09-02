@@ -120,3 +120,50 @@ footer{
 #air{
   margin-bottom: 2em;
 }
+
+<!--Formulaire-->
+
+article,aside,figure,figure img,figcaption,hgroup,footer,header,nav,section,video,object,output{
+  display:block
+  }
+
+  #form{
+    text-align:left;
+    background: white;
+    border:none;
+    -webkit-box-shadow:rgba(0,0,0,0.2) 0px 0px 5px;
+    -moz-box-shadow:rgba(0,0,0,0.2) 0px 0px 5px;
+    -o-box-shadow:rgba(0,0,0,0.2) 0px 0px 5px;
+    box-shadow:rgba(0,0,0,0.2) 0px 0px 5px
+    }
+
+  #form{
+    margin:0 auto 10px auto;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    width:640px
+    }
+
+  #form li{
+    list-style: none;
+  }
+
+  form.wufoo{
+    margin:20px 14px 0 14px;
+    padding:0 0 20px 0;
+    position:relative
+    }
+
+  img,a img{
+    border:none;
+    -ms-interpolation-mode:bicubic
+    }
+
+  .hide,.cloak div,.cloak span,.likert.cloak tbody,.likert.cloak thead{
+    display:none !important;
+    }
+
+  .likert.cloak table{
+    border:none;
+  }
+
